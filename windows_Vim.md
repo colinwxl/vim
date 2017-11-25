@@ -1,5 +1,6 @@
 ## [gVim](http://www.vim.org/) on Windows
 <2017-11-8> by Colin Wu [colinabc@qq.com]
+
 Refer to https://codingstyle.cn/topics/250
 
 ### Installation

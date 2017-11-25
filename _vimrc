@@ -63,6 +63,11 @@ set backspace=indent,eol,start whichwrap+=<,>,[,]
 set clipboard+=unnamed
 " 设置 alt 键不映射到菜单栏
 set winaltkeys=no
+" 禁止生成.un~文件
+" set noundofile
+" set nobackup
+" set noswapfile
+set undodir="C:/Users/colinwxl/.undodir"
 " }}}
 
 " Lang & Encoding {{{
@@ -108,7 +113,6 @@ set guifont=Inconsolata:h20:cANSI
 " 文字字体格式和大小
 " set guifont=Courier_new:h14:b:cDEFAULT
 " }}}
-
 
 " Format {{{
 set autoindent

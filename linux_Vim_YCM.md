@@ -1,5 +1,6 @@
 ## [Vim](ftp://ftp.vim.org/pub/vim/unix/) and Its Plugins ([YouCompleteMe](http://valloric.github.io/YouCompleteMe/))
 <2017.0928-0929> by colin wu
+
 ### Vim Installation
 卸载老版本：`sudo apt-get remove vim (vim-runtime; gvim; vim-tiny; vim-common; vim-gui-common)`
 未出现依赖库缺失情况，略过。
@@ -406,8 +407,8 @@ make && make install
 add to `~/.vimrc`
 ```
 let g:ycm_server_python_interpreter='/home/wuxiaolong/tools/anaconda2/bin/python'
-104 let g:ycm_path_to_python_interpreter='/home/wuxiaolong/tools/anaconda2/bin/python'
-105 let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+let g:ycm_path_to_python_interpreter='/home/wuxiaolong/tools/anaconda2/bin/python'
+let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 ```
 2) 其他配置
 ```
